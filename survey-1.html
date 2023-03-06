@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/stylesheet.css">
   </head>
   <body>
-    <h1>Survey page 1</h1>
+    <h1>Survey Page 1</h1>
     <form>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name"><br><br>
@@ -23,22 +23,19 @@
         <label for="female">Female</label><br>
         <input type="radio" id="other" name="gender" value="other">
         <label for="other">Other</label><br><br>
-        
-        <label for="interests">Select your interests:</label><br>
-        <input type="checkbox" id="sports" name="interests" value="sports">
-        <label for="sports">Sports</label><br>
-        <input type="checkbox" id="music" name="interests" value="music">
-        <label for="music">Music</label><br>
-        <input type="checkbox" id="movies" name="interests" value="movies">
-        <label for="movies">Movies</label><br>
-        
-        <br>
-        <input type="submit" value="Submit">
-      </form>
+        <label for="year">What year in college are you?</label>
+  <select id="year" name="year">
+    <option value="freshman">Freshman</option>
+    <option value="sophomore">Sophomore</option>
+    <option value="junior">Junior</option>
+    <option value="senior">Senior</option>
+    <option value="graduate">Graduate</option>
+  </select><br>
+      </form><br>
       <button onclick="window.location.href='./survey-2.html';">
         Next page
       </button>
     </p>
-    <p>page 1 of 2</p>
+    <p>Page 1 of 2</p>
   </body>
 </html>
